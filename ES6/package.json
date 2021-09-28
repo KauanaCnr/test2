@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "npx babel C:/Users/kauka/OneDrive/Documentos/GitHub/test2/ES6/src/main.js -o C:/Users/kauka/OneDrive/Documentos/GitHub/test2/ES6/public/bundle.js -w"
+    "dev": "babel C:/Users/kauka/OneDrive/Documentos/GitHub/test2/ES6/src/main.js -o C:/Users/kauka/OneDrive/Documentos/GitHub/test2/ES6/public/bundle.js -w"
   },
   "keywords": [],
   "author": "",
