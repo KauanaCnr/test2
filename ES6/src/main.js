@@ -75,14 +75,77 @@
 
 //-------------------------
 
-const cars =['fusca', 'civic', 'hb20']
+//const cars =['fusca', 'civic', 'hb20']
 
-const hasFusca = cars.some(function(car) => {
-    return car == 'fusca'
-})
+//const hasFusca = cars.some(function(car) {
+    //return car == 'fusca'
+//})
 
-console.log(hasFusca)
+//console.log(hasFusca)
 
 //------------
 //*Arrow Functions
- 
+
+//const todos = [
+  //{text: 'lavar a louça', done:false},
+  //{text: 'apanhar o lixo', done:true},
+  //{text: 'dobrar as roupas', done:true},
+//]
+
+//const doneTodos = todos.filter((todo) => todo.done 
+//)
+
+//console.log(doneTodos)
+
+//---------------------
+
+//function anything ()  {
+  //  console.log('Hello world')
+//}
+
+//---------------------------------
+//const anything  = ()  => ({mensagem:'Hello world'})
+
+//console.log(anything())
+
+//*Parametro padrao
+
+//function  sayHello(name = 'Fulano')  {
+    //console.log('Olá' + name)
+//}
+
+//-------------------
+
+//const sayHello  = (name = 'Fulano')  => console.log('Olá' + name)
+
+//sayHello()
+
+//-----------------------------------
+
+//*Template strings
+
+//const showProduct = (product, price) => {
+//console.log(`O valor de ${product} é R$ ${price} pode comprar`)
+//}
+
+//showProduct('camisa', 20.7)
+
+//------------------------
+
+//*Object Short Syntax
+
+//const name = 'camisa'
+//const price = 20
+
+//const product = {
+    //name,
+    //price,
+    //inStock: true
+//}
+
+//console.log(product)
+
+//-----------------------------------
+
+//*Desestruturação
+
